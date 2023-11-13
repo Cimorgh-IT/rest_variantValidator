@@ -55,6 +55,10 @@ Please see [MANUAL.md](./docs/MANUAL.md)
 
 Please see [DOCKER.md](https://github.com/openvar/rest_variantValidator/blob/master/docs/DOCKER.md)
 
+# Running on a VCF.gz file in docker in linux terminal
+run the prep_API_VV.sh code in your linux machine. it gets a VCF.gz file as the input and create both refseq and ensemble canonical annotation and HGVS numencluture in a json format for you. Then you can parse the json file if needed.
+Example: ./prep_API_VV.sh my_vcf.gz
+
 ## License
 
 Please see [LICENSE.txt](LICENSE.txt)
