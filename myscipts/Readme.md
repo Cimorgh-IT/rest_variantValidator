@@ -1,0 +1,1 @@
+# this scrpts get a vcf file and use rest API of VariantValidator to extranct the ensemble trancripts and acanonical refseq transcript of variants in the vcf file. the result will be save in a json file.
